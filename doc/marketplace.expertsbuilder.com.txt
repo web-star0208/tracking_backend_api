@@ -1,0 +1,10 @@
+﻿http://marketplace.expertsbuilder.com/
+
+dbname: marketplacekit
+dbuser:market_admin
+dbpassword:DZh4eEaC!wTb
+
+
+expertsbuilder.com/cpanel
+username: expertsbuilder
+password: Gjrkdtjd2013
