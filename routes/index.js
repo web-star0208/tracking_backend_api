@@ -466,6 +466,13 @@ router.post('/saveworkingtimer', function(req, res, next){
 
 router.post('/deletetask', function(req, res, next){
 	
-})
+	Task.deleteOne( { _id : req.body.task_id }, function(err, task){
+		if (err) return next(err);
+		res.json({
+			success: true
+		});
+	} );
+	
+});
 
 module.exports = router;
