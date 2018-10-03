@@ -12,8 +12,12 @@ var taskSchema = new mongoose.Schema({
   customnotification: String,
   starttime: String,
   endtime: String,
+  startedtime: String,
+  endedtime: String,
   duration: String,
   status: Number,
+  workingtime: String,
+  ugency: Number,
 });
 
 module.exports = mongoose.model('Task', taskSchema);
